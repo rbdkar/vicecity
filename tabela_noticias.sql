@@ -5,7 +5,6 @@ create table public.noticias (
   data_publicacao date not null
 );
 
--- Permite que a chave anon use a API REST da tabela
 alter table public.noticias enable row level security;
 
 create policy "noticias_select" on public.noticias
