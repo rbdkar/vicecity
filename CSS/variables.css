@@ -1,0 +1,22 @@
+:root {
+  --cor-fundo: #1a0933;
+  --cor-fundo-claro: #2a1250;
+  --cor-superficie: #331763;
+  --cor-rosa: #ff3d8b;
+  --cor-laranja: #ff9f43;
+  --cor-turquesa: #2de2c8;
+  --cor-texto: #fff4ec;
+  --cor-texto-suave: #cdb9ea;
+  --cor-erro: #ff6b6b;
+
+  --gradiente-sol: linear-gradient(90deg, var(--cor-rosa), var(--cor-laranja));
+
+  --fonte-titulo: "Arial Narrow", "Arial Black", Impact, sans-serif;
+  --fonte-texto: "Trebuchet MS", "Segoe UI", Arial, sans-serif;
+  --espaco-1: 0.5rem;
+  --espaco-2: 1rem;
+  --espaco-3: 1.5rem;
+  --espaco-4: 2.5rem;
+  --raio: 0.5rem;
+  --largura-conteudo: 52rem;
+}

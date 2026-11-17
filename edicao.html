@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Editar | Vice City News</title>
+  <link rel="stylesheet" href="CSS/modern-normalize.css">
+  <link rel="stylesheet" href="CSS/variables.css">
+  <link rel="stylesheet" href="CSS/estilos.css">
+  <script type="module" src="JS/main.js"></script>
+  <script type="module" src="JS/edicao.js"></script>
+</head>
+<body>
+  <gta-header></gta-header>
+  <gta-nav></gta-nav>
+
+  <main class="conteudo">
+    <h1 class="titulo-pagina">Editar notícia</h1>
+
+    <form id="form-noticia" class="formulario">
+      <label for="selecao-noticia">Escolha a notícia</label>
+      <select id="selecao-noticia" name="selecao-noticia">
+        <option value="">Selecione uma notícia</option>
+      </select>
+
+      <label for="titulo">Manchete</label>
+      <input type="text" id="titulo" name="titulo" required>
+
+      <label for="descricao">Texto da notícia</label>
+      <textarea id="descricao" name="descricao" rows="5" required></textarea>
+
+      <label for="data_publicacao">Data de publicação</label>
+      <input type="date" id="data_publicacao" name="data_publicacao" required>
+
+      <button type="submit" class="botao">Salvar alterações</button>
+    </form>
+
+    <p id="mensagem" class="mensagem" role="status"></p>
+  </main>
+
+  <gta-footer></gta-footer>
+</body>
+</html>
